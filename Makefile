@@ -4,7 +4,7 @@
 # See https://pubs.opengroup.org/onlinepubs/9699919799/utilities/make.html.
 .POSIX:
 
-CHANNEL = development
+CHANNEL = stable
 CLIENT_BETA_DIR = client2
 CLIENT_DIR = client
 COMMIT = $$(git rev-parse --short HEAD)
@@ -21,7 +21,7 @@ NPM = npm
 NPM_FLAGS = --prefix $(CLIENT_DIR)
 SIGN = 1
 VERBOSE = 0
-VERSION = v0.0.0
+VERSION = v1.0.0
 YARN = yarn
 YARN_FLAGS = --cwd $(CLIENT_BETA_DIR)
 
