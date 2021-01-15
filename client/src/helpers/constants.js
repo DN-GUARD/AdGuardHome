@@ -44,16 +44,16 @@ export const STATUS_COLORS = {
 };
 
 export const REPOSITORY = {
-    URL: 'https://github.com/AdguardTeam/AdGuardHome',
+    URL: 'https://github.com/DN-GUARD/DNGuard_Master',
     TRACKERS_DB:
-        'https://github.com/AdguardTeam/AdGuardHome/tree/master/client/src/helpers/trackers/adguard.json',
-    ISSUES: 'https://github.com/AdguardTeam/AdGuardHome/issues/new/choose',
+        'https://github.com/DN-GUARD/DNGuard_Master',
+    ISSUES: 'https://github.com/DN-GUARD/DNGuard_Master',
 };
 
-export const PRIVACY_POLICY_LINK = 'https://adguard.com/privacy/home.html';
-export const PORT_53_FAQ_LINK = 'https://github.com/AdguardTeam/AdGuardHome/wiki/FAQ#bindinuse';
-export const UPSTREAM_CONFIGURATION_WIKI_LINK = 'https://github.com/AdguardTeam/AdGuardHome/wiki/Configuration#upstreams';
-export const GETTING_STARTED_LINK = 'https://github.com/AdguardTeam/AdGuardHome/wiki/Getting-Started#update';
+export const PRIVACY_POLICY_LINK = 'https://dn-guard.online/dns/home.html';
+export const PORT_53_FAQ_LINK = 'https://dn-guard.online/dns/faq.html';
+export const UPSTREAM_CONFIGURATION_WIKI_LINK = 'https://dn-guard.online/dns/upstream.html';
+export const GETTING_STARTED_LINK = 'https://dn-guard.online/dns/start.html';
 
 export const FILTERS_RELATIVE_LINK = '#filters';
 
