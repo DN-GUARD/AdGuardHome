@@ -52,7 +52,7 @@ class Login extends Component {
                                 <Trans
                                     components={[
                                         <a
-                                            href="https://github.com/AdguardTeam/AdGuardHome/wiki/Configuration#password-reset"
+                                            href="https://github.com/DN-GUARD/DNGuard_Master/wiki/Password-Reset"
                                             key="0"
                                             target="_blank"
                                             rel="noopener noreferrer"
