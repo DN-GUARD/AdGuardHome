@@ -5,7 +5,7 @@ import flow from 'lodash/flow';
 import { withTranslation, Trans } from 'react-i18next';
 
 import * as actionCreators from '../../actions/login';
-import logo from '../../components/ui/svg/logo.svg';
+import logo from '../../components/ui/svg/logo.png';
 import Toasts from '../../components/Toasts';
 import Footer from '../../components/ui/Footer';
 import Form from './Form';
