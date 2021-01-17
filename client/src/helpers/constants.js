@@ -44,16 +44,16 @@ export const STATUS_COLORS = {
 };
 
 export const REPOSITORY = {
-    URL: 'https://github.com/DN-GUARD/DNGuard_Master',
+    URL: 'https://git.jjds.co.za',
     TRACKERS_DB:
-        'https://github.com/DN-GUARD/DNGuard_Master',
-    ISSUES: 'https://github.com/DN-GUARD/DNGuard_Master',
+        'https://git.jjds.co.za',
+    ISSUES: 'https://git.jjds.co.za',
 };
 
-export const PRIVACY_POLICY_LINK = 'https://dn-guard.online/dns/home.html';
-export const PORT_53_FAQ_LINK = 'https://dn-guard.online/dns/faq.html';
-export const UPSTREAM_CONFIGURATION_WIKI_LINK = 'https://dn-guard.online/dns/upstream.html';
-export const GETTING_STARTED_LINK = 'https://dn-guard.online/dns/start.html';
+export const PRIVACY_POLICY_LINK = 'https://git.jjds.co.za/dns/home.html';
+export const PORT_53_FAQ_LINK = 'https://git.jjds.co.za/dns/faq.html';
+export const UPSTREAM_CONFIGURATION_WIKI_LINK = 'https://git.jjds.co.za/dns/upstream.html';
+export const GETTING_STARTED_LINK = 'https://git.jjds.co.za/dns/start.html';
 
 export const FILTERS_RELATIVE_LINK = '#filters';
 
