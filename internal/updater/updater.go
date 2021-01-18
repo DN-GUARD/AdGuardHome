@@ -83,7 +83,7 @@ type Config struct {
 func NewUpdater(conf *Config) *Updater {
 	u := &url.URL{
 		Scheme: "https",
-		Host:   "static.dn-guard.online",
+		Host:   "static.adguard.com",
 		Path:   path.Join("adguardhome", conf.Channel, "version.json"),
 	}
 	return &Updater{
