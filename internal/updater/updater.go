@@ -18,10 +18,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/DN-GUARD/DNGuard_Master/internal/aghio"
-	"github.com/DN-GUARD/DNGuard_Master/internal/util"
-	"github.com/DN-GUARD/DNGuard_Master/internal/version"
-	"github.com/DN-GUARD/DNGuard_Master/golibs/log"
+	"github.com/AdguardTeam/AdGuardHome/internal/aghio"
+	"github.com/AdguardTeam/AdGuardHome/internal/util"
+	"github.com/AdguardTeam/AdGuardHome/internal/version"
+	"github.com/AdguardTeam/AdGuardHome/golibs/log"
 )
 
 // Updater is the AdGuard Home updater.
