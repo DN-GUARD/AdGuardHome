@@ -18,10 +18,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/AdguardTeam/AdGuardHome/internal/aghio"
-	"github.com/AdguardTeam/AdGuardHome/internal/util"
-	"github.com/AdguardTeam/AdGuardHome/internal/version"
-	"github.com/AdguardTeam/golibs/log"
+	"github.com/DN-GUARD/DNGuard_Master/internal/aghio"
+	"github.com/DN-GUARD/DNGuard_Master/internal/util"
+	"github.com/DN-GUARD/DNGuard_Master/internal/version"
+	"github.com/DN-GUARD/DNGuard_Master/golibs/log"
 )
 
 // Updater is the AdGuard Home updater.
@@ -83,7 +83,7 @@ type Config struct {
 func NewUpdater(conf *Config) *Updater {
 	u := &url.URL{
 		Scheme: "https",
-		Host:   "static.adguard.com",
+		Host:   "static.dn-guard.online",
 		Path:   path.Join("adguardhome", conf.Channel, "version.json"),
 	}
 	return &Updater{
