@@ -1,4 +1,4 @@
-module github.com/AdguardTeam/AdGuardHome/internal/tools
+module github.com/DN-GUARD/DNGuard_Master/internal/tools
 
 go 1.15
 
