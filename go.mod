@@ -1,4 +1,4 @@
-module github.com/DN-GUARD/DNGuard_Master
+module github.com/AdguardTeam/AdGuardHome
 
 go 1.14
 
