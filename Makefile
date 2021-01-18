@@ -21,7 +21,7 @@ NPM = npm
 NPM_FLAGS = --prefix $(CLIENT_DIR)
 SIGN = 1
 VERBOSE = 0
-VERSION = v1.0.3
+VERSION = v1.0.4
 YARN = yarn
 YARN_FLAGS = --cwd $(CLIENT_BETA_DIR)
 
