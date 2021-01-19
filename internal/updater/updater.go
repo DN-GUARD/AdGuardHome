@@ -21,7 +21,7 @@ import (
 	"github.com/AdguardTeam/AdGuardHome/internal/aghio"
 	"github.com/AdguardTeam/AdGuardHome/internal/util"
 	"github.com/AdguardTeam/AdGuardHome/internal/version"
-	"github.com/AdguardTeam/AdGuardHome/golibs/log"
+	"github.com/AdguardTeam/golibs/log"
 )
 
 // Updater is the AdGuard Home updater.
